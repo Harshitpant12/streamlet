@@ -24,3 +24,4 @@ if filee is not None:
         file['Column1'].fillna((file['Column1'].max()), inplace=True)
 
       st.dataframe(file)
+    
